@@ -8,6 +8,9 @@ inputs:
   chat_id:
     description: "Chat ID to send the notification"
     required: true
+  api_url:
+    description: "Custom bot API URL"
+    required: false
   thread_id:
     description: "Thread ID (optional)"
     required: false

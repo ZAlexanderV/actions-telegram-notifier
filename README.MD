@@ -63,6 +63,7 @@ To use Actions Telegram Notify, you need:
 |-----------------|----------|-----------------------------------------------------------------------------------------------------------------------------|  
 | `token`         | Yes      | Telegram Bot Token. Use GitHub Secrets for secure storage.                                                                  |  
 | `chat_id`       | Yes      | Telegram Chat ID. Use GitHub Secrets for secure storage.                                                                    |  
+| `api_url`       | No       | Custom Telegram Bot API URL. Use GitHub Secrets for secure storage.                                                         |
 | `thread_id`     | No       | Telegram Chat Thread ID.                                                                                                    |  
 | `status`        | No       | Workflow status, retrieved from `${{ job.status }}` or set manually (e.g., `pending`). Defaults to `info` if not specified. |  
 | `title`         | No       | Custom title text for the notification. Defaults to a general message.                                                      |  

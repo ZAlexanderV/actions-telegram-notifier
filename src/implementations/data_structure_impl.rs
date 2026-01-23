@@ -10,6 +10,7 @@ impl DataStructure {
         let token = get_env_var("INPUT_TOKEN")?;
         let chat_id = get_env_var("INPUT_CHAT_ID")?;
 
+        let api_url = get_env_var("INPUT_API_URL").ok();
         let thread_id = get_env_var("INPUT_THREAD_ID").ok();
         let title = get_env_var("INPUT_TITLE").ok();
         let message = get_env_var("INPUT_MESSAGE").ok();
@@ -39,6 +40,7 @@ impl DataStructure {
             event,
             token,
             chat_id,
+            api_url,
             thread_id,
             status,
             title,
