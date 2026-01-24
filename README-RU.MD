@@ -209,23 +209,20 @@ jobs:
 
 ## Автор
 
-Автор: Иван Ашихмин  
-Telegram для связи: [https://t.me/proDreams](https://t.me/proDreams)
+- [Иван Ашихмин](https://t.me/proDreams)
 
-Action написан в рамках проекта "Код на салфетке".
+Action написан в рамках проекта "Код на салфетке":
 
-- Сайт: [https://pressanybutton.ru/](https://pressanybutton.ru/)
-- Telegram-канал: [https://t.me/press_any_button](https://t.me/press_any_button)
+- Сайт: https://pressanybutton.ru/
+- Telegram-канал: https://t.me/press_any_button
 
 ## Поддержка
 
-Если вам нравится этот проект и вы хотите поддержать его дальнейшее развитие, рассмотрите возможность Доната:
+Если вам нравится этот проект и вы хотите поддержать его дальнейшее развитие, рассмотрите возможность доната:
 
-- Донат через TON: `UQBU8rJEfUcBvJUbz6NbXiWxaOO_NoXHK_pXOWv7qsOBWbFp`
-- [Поддержка на Boosty](https://boosty.to/prodream)
-- [В нашем Telegram-боте за Telegram Stars](https://t.me/press_any_button_bot?start=donate)
-
-Ваша поддержка помогает проекту развиваться и улучшать будущие функции!
+- [Поддержать через YooMoney](https://yoomoney.ru/to/41001431694461)
+- [Поддержать через Tribute в Telegram](https://t.me/tribute/app?startapp=dyds)
+- [Поддержать через наш Telegram-бот](https://t.me/press_any_button_bot?start=donate)
 
 ## Участники
 

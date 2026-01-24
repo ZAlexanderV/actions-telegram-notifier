@@ -210,23 +210,20 @@ jobs:
 
 ## Author
 
-Author: Ivan Ashikhmin  
-Telegram for contact: [https://t.me/proDreams](https://t.me/proDreams)
+* [Ivan Ashikhmin](https://t.me/proDreams)
 
-This Action was created as part of the "Code on a Napkin" project.
+This Action was created as part of the "Code on a Napkin" project:
 
-- Website: [https://pressanybutton.ru/](https://pressanybutton.ru/)
-- Telegram Channel: [https://t.me/press_any_button](https://t.me/press_any_button)
+* Website: https://pressanybutton.ru/
+* Telegram channel: https://t.me/press_any_button
 
 ## Support
 
-If you like this project and want to support its further development, consider donating:
+If you like this project and would like to support its further development, please consider making a donation:
 
-- Donation via TON: `UQBU8rJEfUcBvJUbz6NbXiWxaOO_NoXHK_pXOWv7qsOBWbFp`
-- [Support on Boosty](https://boosty.to/prodream)
-- [Donate via our Telegram bot with Telegram Stars](https://t.me/press_any_button_bot?start=donate)
-
-Your support helps the project grow and improve future features!
+* [Support via YooMoney](https://yoomoney.ru/to/41001431694461)
+* [Support via Tribute in Telegram](https://t.me/tribute/app?startapp=dyds)
+* [Support via our Telegram bot](https://t.me/press_any_button_bot?start=donate)
 
 ## Contributors
 

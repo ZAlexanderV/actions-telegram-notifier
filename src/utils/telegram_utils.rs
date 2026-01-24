@@ -44,7 +44,11 @@ fn generate_json(message_text: &String, data: &DataStructure) -> serde_json::val
 }
 
 pub async fn send_notify_message(message_text: String, data: &DataStructure) {
-    let api_url = data.api_url.clone().unwrap_or("https://api.telegram.org".to_string());
+    let api_url = data
+        .api_url
+        .as_deref()
+        .filter(|s| !s.is_empty())
+        .unwrap_or("https://api.telegram.org");
     let api_url = format!("{}/bot{}/sendMessage", api_url, data.token);
 
     let json = generate_json(&message_text, &data);

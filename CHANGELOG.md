@@ -1,6 +1,9 @@
+## v. 2.2 fix
+- Fix `api_url` default value if not provided.
+
 ## v. 2.2
 - Custom Bot API Server Support:
-  - Added a new optional input api_url.
+  - Added a new optional input `api_url`.
   - Telegram Docs: https://core.telegram.org/bots/api#using-a-local-bot-api-server
 - Multi-platform Builds (ARM)
 - Updated `README.md`
