@@ -6,7 +6,7 @@ COPY . .
 
 RUN cargo build --release
 
-FROM debian:bookworm-slim
+FROM debian:bookworm-slim as runtime
 
 RUN apt-get update && apt-get install -y \
     libssl-dev \

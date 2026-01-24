@@ -1,3 +1,11 @@
+## v. 2.2
+- Custom Bot API Server Support:
+  - Added a new optional input api_url.
+  - Telegram Docs: https://core.telegram.org/bots/api#using-a-local-bot-api-server
+- Multi-platform Builds (ARM)
+- Updated `README.md`
+- Updated `Dockerfile`
+
 ## v. 2.1
 
 - Added support for the `Workflow Dispatch` event. It displays information about a manually triggered workflow:

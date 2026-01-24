@@ -59,17 +59,17 @@ To use Actions Telegram Notify, you need:
 
 ## Execution Arguments
 
-| Name            | Required | Description                                                                                                                 |  
-|-----------------|----------|-----------------------------------------------------------------------------------------------------------------------------|  
-| `token`         | Yes      | Telegram Bot Token. Use GitHub Secrets for secure storage.                                                                  |  
-| `chat_id`       | Yes      | Telegram Chat ID. Use GitHub Secrets for secure storage.                                                                    |  
-| `api_url`       | No       | Custom Telegram Bot API URL. Use GitHub Secrets for secure storage.                                                         |
-| `thread_id`     | No       | Telegram Chat Thread ID.                                                                                                    |  
-| `status`        | No       | Workflow status, retrieved from `${{ job.status }}` or set manually (e.g., `pending`). Defaults to `info` if not specified. |  
-| `title`         | No       | Custom title text for the notification. Defaults to a general message.                                                      |  
-| `message`       | No       | Custom message text to include in the notification.                                                                         |  
-| `footer`        | No       | Text to append at the end of the notification.                                                                              |  
-| `notify_fields` | No       | Comma-separated list of additional fields to include. See [`notify_fields` Values](#notify_fields-values) for details.      |
+| Name            | Required | Description                                                                                                                            |  
+|-----------------|----------|----------------------------------------------------------------------------------------------------------------------------------------|  
+| `token`         | Yes      | Telegram Bot Token. Use GitHub Secrets for secure storage.                                                                             |  
+| `chat_id`       | Yes      | Telegram Chat ID. Use GitHub Secrets for secure storage.                                                                               |  
+| `api_url`       | No       | Custom Telegram [Bot API URL](https://core.telegram.org/bots/api#using-a-local-bot-api-server). Use GitHub Secrets for secure storage. |
+| `thread_id`     | No       | Telegram Chat Thread ID.                                                                                                               |  
+| `status`        | No       | Workflow status, retrieved from `${{ job.status }}` or set manually (e.g., `pending`). Defaults to `info` if not specified.            |  
+| `title`         | No       | Custom title text for the notification. Defaults to a general message.                                                                 |  
+| `message`       | No       | Custom message text to include in the notification.                                                                                    |  
+| `footer`        | No       | Text to append at the end of the notification.                                                                                         |  
+| `notify_fields` | No       | Comma-separated list of additional fields to include. See [`notify_fields` Values](#notify_fields-values) for details.                 |
 
 ### `status` Values
 
