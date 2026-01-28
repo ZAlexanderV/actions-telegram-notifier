@@ -34,7 +34,7 @@ outputs:
     description: "Result of the notification"
 runs:
   using: "docker"
-  image: "Dockerfile"
+  image: "docker://ghcr.io/ZAlexanderV/actions-telegram-notifier:fixed"
 branding:
   icon: "send"
   color: "blue"
