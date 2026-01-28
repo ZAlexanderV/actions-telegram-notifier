@@ -81,5 +81,9 @@ pub fn generate_workflow_dispatch_message(
 
     message += &*generate_workflow_dispatch_inputs_message(&event.inputs);
     
+    message += &*generate_input_message(data.message.as_deref().unwrap_or_default());
+
+    message += &*generate_input_message(data.footer.as_deref().unwrap_or_default());
+
     message
 }
